@@ -6,12 +6,12 @@ import { Link } from 'react-router';
 
 
 import App from './components/app';
-import BooksList from './components/books_list';
-import BooksNew from './components/book_new';
-import BookDetails from './components/book_details';
+import BooksList from './components/books/books_list';
+import BooksNew from './components/books/book_new';
+import BookDetails from './components/books/book_details';
 
 
-const Greeting = () => { return(<div></div>);}
+const Greeting = () => { return(<div></div>);};
 
 export default (
     <Route path="/" components={App} >

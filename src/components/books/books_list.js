@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
-import { listBooks } from '../actions/index';
+import { listBooks } from '../../actions/index';
 
 class BooksList extends Component {
 

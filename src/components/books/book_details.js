@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router';
 
 
-import { getOneBook } from '../actions/index';
+import { getOneBook } from '../../actions/index';
 
 
 class BookDetails extends Component {

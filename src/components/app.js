@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import MainCategory from './main_category';
+import MainCategory from './menu/main_category';
 
 export default class App extends Component {
 
@@ -17,13 +17,13 @@ export default class App extends Component {
 
 		return (
 			<div className="container">
-        <div id="header" className="panel">
-            <h2>LIBRARY</h2>
+				<div id="header" className="panel">
+					<h2>LIBRARY</h2>
 				</div>
 				<div>
-						<MainCategory category={category} />
-            {this.props.children}
-        </div>
+					<MainCategory category={category} />
+					{this.props.children}
+				</div>
 			</div>
 		);
 	}
