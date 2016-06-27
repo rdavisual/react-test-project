@@ -30,6 +30,8 @@ class BookDetails extends Component {
       <div>
         <div className="pull-xs-right">
           <p>The name is: {this.props.book.name}</p>
+          <p>The context is: {this.props.book.context}</p>
+
           <Link to="/" className="btn btn-primary">Go to Index</Link>
         </div>
 
