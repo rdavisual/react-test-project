@@ -10,3 +10,7 @@ form a {
 #header{
   padding-top: 20px;
 }
+
+body {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
