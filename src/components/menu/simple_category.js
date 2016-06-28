@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 // import MainCategory from './main_category';
+import "../app.scss";
+
 
 export default class SimpleCategory extends Component {
 

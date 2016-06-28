@@ -3,6 +3,8 @@ import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { createBook } from '../../actions/index';
 
+import './book-new.scss';
+
 class BooksNew extends Component {
 
     randomBook() {
@@ -14,8 +16,8 @@ class BooksNew extends Component {
 
         return (
           <div>
-            <button className="btn btn-danger"  onClick={this.randomBook.bind(this)}>Add One</button>
-            <Link to="/" className="btn btn-primary">
+            <button className="btn btn-danger down"  onClick={this.randomBook.bind(this)}>Add One</button>
+            <Link to="/" className="btn btn-primary down">
               Go to Index
             </Link>
           </div>

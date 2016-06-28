@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SimpleCategory from './simple_category';
 
-import "./menu.scss";
+import "../app.scss";
 
 export default class MainCategory extends Component {
 
@@ -22,9 +22,9 @@ export default class MainCategory extends Component {
 
 	render() {
 		return (
-			<div className="menu-container">
-				<div>
-					<ul>
+			<div className="container ">
+				<div id="sidebar-wrapper">
+					<ul className="sidebar-nav">
 						{this.displayList()}
 					</ul>
 				</div>

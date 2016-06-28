@@ -9,7 +9,7 @@ import { getOneBook } from '../../actions/index';
 class BookDetails extends Component {
 
   constructor(props){
-    super(props)
+    super(props);
   }
 
   componentWillMount() {
